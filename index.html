@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="musicplayer.css">
+	<title>Music Player</title>
+	<script src="https://kit.fontawesome.com/2bfc5e779f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+         <header class="main-header">
+         	<div class="logo">
+         		<i class="fa-solid fa-music icon-white"></i>
+         		<span> Favourites</span>
+         	</div>
+         	<div class="search-bar">
+         		<div class="image">
+         			
+         		</div>
+         		<i class="fa-solid fa-bell icon-white"></i>
+                <div id="cc"> 
+         		<input type="text" name="search" placeholder="search" id="inputt">
+            </div>
+         	</div>
+         </header>
+          <div id="player">
+                  <div class="player-singer">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREX2d480C443A6Cn3VbNNQkovI17Sq9CxreA&s">
+                      <div class="player-singer-name">
+                          <span>Elevated&nbsp;by&nbsp;shubh</span>
+                          <span>Shubh</span>
+                      </div>
+                      <div class="player-singer-like">
+                          <i class="fa-regular fa-heart"></i>
+                          <i class="fa-solid fa-ban"></i>
+                      </div>
+                  </div>
+                  <div class="music-play">
+                      <div class="music-play-button">
+                          <a href=""><i class="fa-solid fa-shuffle" style="color: #fcfcfc;"></i></a>
+                          <i class="fa-solid fa-forward-step fa-rotate-180" style="color: #f5f5f5;"></i>
+                        <a href="">  <i class="fa-regular fa-circle-pause" style="color: #fcfcfc; font-size: 2rem;"></i></a>
+                          <i class="fa-solid fa-forward-step" style="color: #f5f5f5;"></i>
+                          <a href=""><i class="fa-solid fa-repeat" style="color: #fcfcfc;"></i></a>
+                      </div>
+                      <input class="music-play-timer" type="range" name="timer">
+                  </div>
+                  <div class="volume2">
+                    <a href=""><i class="fa-solid fa-list"></i></a>
+                    <a href=""><i class="fa-regular fa-file-audio"></i></a>
+                      <a href=""><i class="fa-solid fa-volume-high" style="color: #ffffff;"></i></a>
+                      <input type="range" name="volume">
+                      <a href=""><i class="fa-solid fa-up-right-and-down-left-from-center" style="color: #fcfcfd;"></i></a>
+                  </div>   
+                 </div>
+         <div id="content">
+             <main>
+                 <section class="new-release">
+                     <div><img src="https://i1.sndcdn.com/artworks-fgQCI3pFN0to-0-t500x500.jpg"></div>
+                     <div><img src="https://i1.sndcdn.com/artworks-fgQCI3pFN0to-0-t500x500.jpg"></div>
+                     <div><img src="https://i1.sndcdn.com/artworks-fgQCI3pFN0to-0-t500x500.jpg"></div>                  
+                 </section>
+                 <section class="latest-release">
+                     <h1 class="section-heading">Latest Release</h1>
+                     <div class="latest-release-content">
+                         <div class="latest-release-container">
+                            <div class="latest-release-image">
+                                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREX2d480C443A6Cn3VbNNQkovI17Sq9CxreA&s"> -->
+                                <div class="img"><a href="#player"><i class="fa-solid fa-play" ></i></a></div>
+                                <div>
+                                    <span class="latest-release-name">Elevated</span>
+                                    <span class="latest-release-date">3-Aug-2019</span>
+                                </div>
+                            </div> 
+                            <div class="latest-release-time-icon">
+                                <div class="dropdown">
+                                <i class="fa-solid fa-ellipsis latest-release-icon"></i>
+                                    <ul class="latest-release-dropdown" id="latest-release-dropdown">
+                         <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                             <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                 <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                  <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>   
+
+                     </ul>
+                 </div>
+                                <span class="latest-release-time">4:25</span>
+                            </div>
+                         </div>
+                         <div class="latest-release-container">
+                            <div class="latest-release-image">
+                                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREX2d480C443A6Cn3VbNNQkovI17Sq9CxreA&s"> -->
+                                <div class="img"><a href="#player"><i class="fa-solid fa-play" ></i></a></div>
+                                <div>
+                                    <span class="latest-release-name">Elevated</span>
+                                    <span class="latest-release-date">3-Aug-2019</span>
+                                </div>
+                            </div> 
+                            <div class="latest-release-time-icon">
+                                <div class="dropdown">
+                                <i class="fa-solid fa-ellipsis latest-release-icon"></i>
+                                    <ul class="latest-release-dropdown" id="latest-release-dropdown">
+                         <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                             <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                 <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                  <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>   
+
+                     </ul>
+                 </div>
+                                <span class="latest-release-time">4:25</span>
+                            </div>
+                         </div>
+                         <div class="latest-release-container">
+                            <div class="latest-release-image">
+                                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREX2d480C443A6Cn3VbNNQkovI17Sq9CxreA&s"> -->
+                                <div class="img"><a href="#player"><i class="fa-solid fa-play" ></i></a></div>
+                                <div>
+                                    <span class="latest-release-name">Elevated</span>
+                                    <span class="latest-release-date">3-Aug-2019</span>
+                                </div>
+                            </div> 
+                            <div class="latest-release-time-icon">
+                                <div class="dropdown">
+                                <i class="fa-solid fa-ellipsis latest-release-icon"></i>
+                                    <ul class="latest-release-dropdown" id="latest-release-dropdown">
+                         <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                             <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                 <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                  <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>   
+
+                     </ul>
+                 </div>
+                                <span class="latest-release-time">4:25</span>
+                            </div>
+                         </div>
+                         <div class="latest-release-container">
+                            <div class="latest-release-image">
+                                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREX2d480C443A6Cn3VbNNQkovI17Sq9CxreA&s"> -->
+                                <div class="img"><a href="#player"><i class="fa-solid fa-play" ></i></a></div>
+                                <div>
+                                    <span class="latest-release-name">Elevated</span>
+                                    <span class="latest-release-date">3-Aug-2019</span>
+                                </div>
+                            </div> 
+                            <div class="latest-release-time-icon">
+                                <div class="dropdown">
+                                <i class="fa-solid fa-ellipsis latest-release-icon"></i>
+                                    <ul class="latest-release-dropdown" id="latest-release-dropdown">
+                         <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                             <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                 <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>
+                                  <li><i class="fa-solid fa-play" style="color: grey;"></i><span></span>Play Now</li>   
+
+                     </ul>
+                 </div>
+                                <span class="latest-release-time">4:25</span>
+                            </div>
+                         </div>
+
+                 
+
+                    
+                           
+                     </div>
+
+                 </section>
+                
+                 <section class="popular-artist">
+                     <h1 class="section-heading">Popular Artists</h1>
+                     <div class="popular-artist-content">
+                       <div class="popular-artist-content-container">
+                          <a href="shubh.html"> <i class="fa-solid fa-play" ></i></a>
+                       </div>
+                       <div class="popular-artist-content-container">
+                          <a href="shubh.html"> <i class="fa-solid fa-play" ></i></a>
+                       </div>
+                       <div class="popular-artist-content-container">
+                          <a href="shubh.html"> <i class="fa-solid fa-play" ></i></a>
+                       </div>
+                       <div class="popular-artist-content-container">
+                          <a href="shubh.html"> <i class="fa-solid fa-play" ></i></a>
+                       </div>
+                       <div class="popular-artist-content-container">
+                          <a href="shubh.html"> <i class="fa-solid fa-play" ></i></a>
+                       </div>
+                        
+                         
+                     </div>
+                 </section>
+                 <section class="music-type">
+                    <div class="music-type-container bk-love">
+                        
+                        <span>Love</span>
+                    </div>
+                    <div class="music-type-container bk-retro">
+                        
+                        <span>RETRO</span>
+                    </div>
+                    <div class="music-type-container bk-chill">
+                        <span>CHILL</span>
+                    </div>
+                    <div class="music-type-container bk-workout">
+                        <span>WORKOUT</span>
+                    </div>
+                    <div class="music-type-container bk-rock">
+                        <span>ROCK</span>
+                    </div>
+                    <div class="music-type-container bk-pop">
+                        <span>POP</span>
+                    </div>
+
+                     
+                 </section>
+                 <section class="music-type-2 music-type">
+                     <div class="music-type-container">
+                         <!-- <span>PARTY</span> -->
+                         <img src="https://static.india.com/wp-content/uploads/2022/12/party-songs.jpg?impolicy=Medium_Resize&w=1200&h=800">
+                         <span>PARTY</span>
+                     </div>
+                     <div class="music-type-container">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScx7FNEdAdODTJTQW9l-EtwCX9hgmcjJwnGNEHOr9hNg&s">
+                         <span>ELECTRONIC</span>
+                     </div>
+                     <div class="music-type-container">
+                        <img src="https://blog.via.com/wp-content/uploads/2016/05/Blogcoverimage.jpg">
+                        <span>ROAD TRIP</span>
+                         
+                     </div>
+                 </section>
+                 <section class="latest-english">
+                     <h1 class="section-heading">Latest English</h1>
+                     <div class="latest-english-content">
+                        <div class="latest-english-container">
+                            <img src="https://pbs.twimg.com/media/GHRXrLcWkAAVgng.jpg">
+                            <span class="latest-english-name">Calm Down</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://pbs.twimg.com/media/GHRXrLcWkAAVgng.jpg">
+                            <span class="latest-english-name">Calm Down</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://pbs.twimg.com/media/GHRXrLcWkAAVgng.jpg">
+                            <span class="latest-english-name">Calm Down</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://pbs.twimg.com/media/GHRXrLcWkAAVgng.jpg">
+                            <span class="latest-english-name">Calm Down</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://pbs.twimg.com/media/GHRXrLcWkAAVgng.jpg">
+                            <span class="latest-english-name">Calm Down</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                         
+                     </div>
+                 </section>
+                 <section>
+                     <h1 class="section-heading">Latest Hindi</h1>
+                      <div class="latest-english-content">
+                        <div class="latest-english-container">
+                            <img src="https://www.agniban.com/wp-content/uploads/2021/11/badshah.jpg">
+                            <span class="latest-english-name">Paagal</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://www.agniban.com/wp-content/uploads/2021/11/badshah.jpg">
+                            <span class="latest-english-name">Paagal</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://www.agniban.com/wp-content/uploads/2021/11/badshah.jpg">
+                            <span class="latest-english-name">Paagal</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://www.agniban.com/wp-content/uploads/2021/11/badshah.jpg">
+                            <span class="latest-english-name">Paagal</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                        <div class="latest-english-container">
+                            <img src="https://www.agniban.com/wp-content/uploads/2021/11/badshah.jpg">
+                            <span class="latest-english-name">Paagal</span>
+                            <span class="latest-english-date">1 Aug 2019</span>
+                        </div>
+                         
+                     </div>
+                 </section>
+             </main>
+             <aside>
+                 <div class="aside-heading">
+                     <span>Queue</span>
+                     <div class="queue">
+                         <span>Queue<i class="fa-solid fa-angle-up fa-rotate-180"></i></span>
+                            <ul class="queue-dropdown">
+                                <li>Playlist</li>
+                                <li>Favourite&nbsp;Songs</li>
+                            </ul>
+                     </div>
+                 </div>
+                 <div class="aside-content">
+                    
+                        <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>
+                     <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>
+                    <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>
+                    <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>
+                    <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>
+                    <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>
+                    <div class="aside-container">
+                         <div class="aside-container-image">
+                             <span>01</span>
+                             <img src="https://c.saavncdn.com/205/Haan-Main-Galat-From-Love-Aaj-Kal--Hindi-2020-20200128113239-500x500.jpg">
+                             <div class="aside-container-name">
+                                 <span>Mirage</span>
+                                 <span style="font-size: .85rem;">else</span>
+                             </div>
+                         </div>
+                         <i class="fa-regular fa-heart" style="color: #fcfcfc;"></i>
+                     </div>                                                      
+                 </div>
+             </aside>
+         </div>
+</body>
+</html>
